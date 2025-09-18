@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "09060844-1C69-4902-A061-EABE9FFD7CEF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9F4F6F9-696D-487A-8FD0-A5280A243235"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RoadmapUserProject/Packages/DataLayer/Sources/DataLayer/Infrastructure/AuthManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "handleSignIn(session:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7BBC8551-D94B-43AE-BB91-4AB3072263FF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RoadmapUserProject/Packages/DataLayer/Sources/DataLayer/Infrastructure/AuthManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "handleSignIn(session:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "958FC29E-B09F-4B9F-9B92-3619A805AD8D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RoadmapUserProject/Packages/Domain/Sources/Domain/UseCases/Auth/GetCurrentUserUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "init(authRepository:userRepository:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "652E1816-F875-4B18-87F4-0645388BF964"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RoadmapUserProject/Packages/Domain/Sources/Domain/UseCases/Auth/GetCurrentUserUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "execute()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "652E1816-F875-4B18-87F4-0645388BF964 - 43c02ac379a4c328"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Domain.GetCurrentUserUseCase.execute() async throws -&gt; Swift.Optional&lt;Core.UserEntity&gt;"
+                  moduleName = "RoadmapUserProject.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prank/coding/go/roadmap-supabase/iOS/RoadMapUser/RoadmapUserProject/RoadmapUserProject/Packages/Domain/Sources/Domain/UseCases/Auth/GetCurrentUserUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28">
+               </Location>
+               <Location
+                  uuid = "652E1816-F875-4B18-87F4-0645388BF964 - 615ad30c95be1637"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) await resume partial function for Domain.GetCurrentUserUseCase.execute() async throws -&gt; Swift.Optional&lt;Core.UserEntity&gt;"
+                  moduleName = "RoadmapUserProject.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prank/coding/go/roadmap-supabase/iOS/RoadMapUser/RoadmapUserProject/RoadmapUserProject/Packages/Domain/Sources/Domain/UseCases/Auth/GetCurrentUserUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28">
+               </Location>
+               <Location
+                  uuid = "652E1816-F875-4B18-87F4-0645388BF964 - 429e87e0a3cf0f2a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for Domain.GetCurrentUserUseCase.execute() async throws -&gt; Swift.Optional&lt;Core.UserEntity&gt;"
+                  moduleName = "RoadmapUserProject.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prank/coding/go/roadmap-supabase/iOS/RoadMapUser/RoadmapUserProject/RoadmapUserProject/Packages/Domain/Sources/Domain/UseCases/Auth/GetCurrentUserUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28">
+               </Location>
+               <Location
+                  uuid = "652E1816-F875-4B18-87F4-0645388BF964 - 45abfc04c5164b34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for Domain.GetCurrentUserUseCase.execute() async throws -&gt; Swift.Optional&lt;Core.UserEntity&gt;"
+                  moduleName = "RoadmapUserProject.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/prank/coding/go/roadmap-supabase/iOS/RoadMapUser/RoadmapUserProject/RoadmapUserProject/Packages/Domain/Sources/Domain/UseCases/Auth/GetCurrentUserUseCase.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B91FD6E1-D06B-41E4-BFAC-764E73A38A2E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RoadmapUserProject/Packages/Domain/Sources/Domain/UseCases/Auth/ObserveAuthStateUseCase.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "init(authRepository:userRepository:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
