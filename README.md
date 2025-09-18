@@ -2,6 +2,13 @@
 
 A modern iOS application built with **Clean Architecture** principles, featuring a modular design with clear separation of concerns. The project demonstrates best practices for scalable, testable, and maintainable iOS development using Swift 6 and SwiftUI.
 
+## 📸 Demo
+
+<img src="images/1.png" width="400" />
+<img src="images/2.png" width="400" />
+<img src="images/3.png" width="400" />
+<img src="images/4.png" width="400" />
+
 ## 📋 Table of Contents
 
 - [Architecture Overview](#-architecture-overview)
@@ -182,7 +189,7 @@ Modules/
    ```
 
 2. **Configure Supabase**
-   
+
    Update `DataLayer/Sources/DataLayer/Configuration/SupabaseConfig.swift`:
    ```swift
    // Development
@@ -227,13 +234,13 @@ graph TD
     DI --> DataLayer[Data Layer]
     DI --> Core[Core]
     DI --> Common[Common]
-    
+
     Presentation --> Domain
     Presentation --> Core
     Presentation --> Common
-    
+
     Domain --> Core
-    
+
     DataLayer --> Core
     DataLayer --> Supabase[Supabase SDK]
 ```
@@ -258,7 +265,7 @@ graph TD
 
 #### Common Module
 - **Purpose**: Provide reusable UI components and utilities
-- **Key Components**: 
+- **Key Components**:
   - CustomTextField: Styled text input component
   - PrimaryButton: Consistent button styling with loading states
   - View Extensions: Custom corner radius and UI helpers
@@ -267,7 +274,7 @@ graph TD
 
 #### Domain Module
 - **Purpose**: Encapsulate business logic
-- **Key Components**: 
+- **Key Components**:
   - SignInUseCase: Authentication logic
   - SignOutUseCase: Session termination
   - GetCurrentUserUseCase: User retrieval
@@ -296,7 +303,7 @@ graph TD
 - **Entities**: Pure business models (UserEntity, SessionEntity)
 - **Protocols**: Repository interfaces defining contracts
 - **Errors**: Domain-specific error definitions
-- **Characteristics**: 
+- **Characteristics**:
   - No external dependencies
   - Platform agnostic
   - Highly stable
@@ -331,7 +338,7 @@ graph TD
 - **Repository Implementations**: Concrete implementations of Core protocols
 - **DTOs**: Data Transfer Objects for external communication
 - **Mappers**: Convert between DTOs and Entities
-- **External Service Integration**: 
+- **External Service Integration**:
   - Supabase for backend
   - RevenueCat for subscriptions
   - Network communication
@@ -409,7 +416,7 @@ PrimaryButton(
 ### Sign In Flow Example
 
 ```
-User Input (View) 
+User Input (View)
     ↓
 AuthViewModel (Presentation)
     ↓
@@ -443,13 +450,13 @@ class SignInUseCaseTests: XCTestCase {
             authRepository: mockAuthRepo,
             userRepository: mockUserRepo
         )
-        
+
         // When
         let result = try await useCase.execute(
             email: "test@example.com",
             password: "password123"
         )
-        
+
         // Then
         XCTAssertNotNil(result.user)
         XCTAssertEqual(result.user.email, "test@example.com")
