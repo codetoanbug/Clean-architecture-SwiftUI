@@ -643,7 +643,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- Author: Your Name
+- Author: Code toan bug
 - Email: codetoanbug@gmail.com
 - GitHub: [@codetoanbug](https://github.com/codetoanbug)
 
